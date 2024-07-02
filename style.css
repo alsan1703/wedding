@@ -50,53 +50,34 @@ text-shadow: var(--shadow);
 }
 
 
-/* Media query for large devices (laptops/desktops) */
-@media (max-width: 992px) {
-    html {
-        font-size: 75%;
-    }
-    .hero h1 {
-        font-size: 4.5rem;
-    }
-    .hero h4 {
-        font-size: 1.4rem;
-    }
-    .hero p {
-        font-size: 1.2rem;
-    }
-}
+/* media query */
+/* laptop */
+@media(max-width:992px){
+ html{
+    font-size:75% ;
+ }
+ .simply-countdown > .simply-section {
+    padding: 70px;
+ }
 
-/* Media query for tablets */
-@media (max-width: 768px) {
-    html {
-        font-size: 65%;
-    }
-    .hero h1 {
-        font-size: 3.5rem;
-    }
-    .hero h4 {
-        font-size: 1.2rem;
-    }
-    .hero p {
-        font-size: 1rem;
-    }
 }
-
-/* Media query for mobile phones */
-@media (max-width: 576px) {
-    html {
-        font-size: 60%;
-    }
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-    .hero h4 {
-        font-size: 1rem;
-    }
-    .hero p {
-        font-size: 0.9rem;
-    }
-    .hero a {
-        padding: 8px 16px;
-    }
+/* tablet */
+@media(max-width:768px){
+    html{
+        font-size:65% ;
+     }
+     .simply-countdown > .simply-section {
+        padding: 60px;
+        margin: 5px;
+     }
+}
+/* mobile phone */
+@media(max-width:567px){
+    html{
+        font-size:60% ;
+     }
+     .simply-countdown > .simply-section {
+        padding: 40px;
+        margin: 3px;
+     }
 }
